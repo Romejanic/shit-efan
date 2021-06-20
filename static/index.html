@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Shit-E Fan 2.0</title>
+    <meta name="description" content="Shit-E Fan: now 100% arduino free">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js" defer></script>
+</head>
+<body>
+
+    <div class="box">
+        <div class="fan-container">
+            <div class="fan" title="Toggle state..."></div>
+        </div>
+
+        <span id="state">Connecting...</span>
+
+        <div class="buttons">
+            <button id="on-btn" disabled>On</button>
+            <button id="off-btn" disabled>Off</button>
+        </div>
+    </div>
+
+    <!-- <img class="on" src="https://thumbs.dreamstime.com/b/fan-icon-vector-illustration-102509374.jpg" />
+
+    <span>State: <span id="state">ON</span>
+
+    <button id="on">On</button>
+    <button id="off">Off</button>
+
+    <script>
+    document.getElementById("on").onclick = () => {
+        fetch("/api/on");
+    };
+    document.getElementById("off").onclick = () => {
+        fetch("/api/off");
+    };
+
+    </script> -->
+
+</body>
+</html>
