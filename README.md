@@ -8,10 +8,12 @@ a fan attached via GPIO.
 ```sh
 $ git clone https://github.com/Romejanic/shit-efan.git/
 $ cd shit-efan
-$ npm i            # install dependencies
-$ nano config.json # create config file
-$ npm run start    # start the web server
+$ npm i               # install dependencies
+$ nano config.json    # create config file
+$ sudo npm run start  # start the web server
 ```
+(`sudo` is most likely required since the program requires
+hardware access and opens a web server on port 80).
 
 ### config.json
 Before running you must create a `config.json` file. There is only
@@ -31,5 +33,5 @@ the terminal and ignoring hangup signals) you can run it with the
 following command:
 
 ```sh
-$ npm run async
+$ sudo npm run async
 ```
