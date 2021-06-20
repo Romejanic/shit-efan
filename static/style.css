@@ -26,10 +26,12 @@ html, body {
 
 .box {
     background: rgb(255, 255, 255, 0.5);
-    backdrop-filter: blur(20px);
     min-width: 400px;
     border-radius: 10px;
     padding: 20px;
+
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
 
     display: flex;
     flex-direction: column;
