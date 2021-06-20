@@ -10,9 +10,13 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node ."
+    "start": "node .",
+    "async": "nohup node . > output.log 2> output.log &"
   },
   "keywords": [],
-  "author": "",
+  "contributors": [
+    "Jack Davenport",
+    "Sven Viking Lees"
+  ],
   "license": "ISC"
 }
