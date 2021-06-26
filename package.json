@@ -11,7 +11,7 @@
   "devDependencies": {},
   "scripts": {
     "start": "node .",
-    "async": "nohup node . > output.log 2> output.log &"
+    "async": "nohup sudo node . > output.log 2> output.log &"
   },
   "keywords": [],
   "contributors": [
